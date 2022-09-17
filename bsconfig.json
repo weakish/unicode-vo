@@ -1,0 +1,19 @@
+{
+  "name": "htm",
+  "sources": ["src"],
+  "package-specs": {
+    "module": "es6-global",
+    "in-source": true
+  },
+  "suffix": ".bs.js",
+  "gentypeconfig": {
+    "language": "typescript",
+    "generatedFileExtension": ".bs.ts",
+    "shims": {},
+    "module": "es6",
+    "debug": {
+      "all": false,
+      "basic": false
+    }
+  }
+}

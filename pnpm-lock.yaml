@@ -1,0 +1,37 @@
+lockfileVersion: 5.4
+
+specifiers:
+  '@tsconfig/node16-strictest-esm': ^1.0.3
+  gentype: ^4.5.0
+  reanalyze: ^2.23.0
+  rescript: ^10.0.1
+
+devDependencies:
+  '@tsconfig/node16-strictest-esm': 1.0.3
+  gentype: 4.5.0
+  reanalyze: 2.23.0
+  rescript: 10.0.1
+
+packages:
+
+  /@tsconfig/node16-strictest-esm/1.0.3:
+    resolution: {integrity: sha512-0/QTPDkKmE2dy0dMRstPCv4VJ+gUGgvMKzaWd5P3hgdlmPqYqe1pJxDGUlNYbSgUBlncIvvX+mIeZarokysNgg==}
+    dev: true
+
+  /gentype/4.5.0:
+    resolution: {integrity: sha512-XqHBQPS6Qb2HSgNJAwYRXbQJ4LSvz+MgNvuWnj8bz0teSorsy2kDxA6F1eZx5ft8cnfKAls4uNEgd5uNcPbQDg==}
+    hasBin: true
+    requiresBuild: true
+    dev: true
+
+  /reanalyze/2.23.0:
+    resolution: {integrity: sha512-5pkH13pX1PrZFkIfmZUjKtYCqzFY2jTaEjBsqyR9SM3HLexAtkHTa4vLHTwuYk167KuO1uwWyEppo8NJIjfkOw==}
+    hasBin: true
+    requiresBuild: true
+    dev: true
+
+  /rescript/10.0.1:
+    resolution: {integrity: sha512-XwO1GPDtoEU4H03xQE5bp0/qtSVR6YLaJRPxWKrfFgKc+LI36ODOCie7o9UJfgzQdoMYkkZyiTGZ4N9OQEaiUw==}
+    hasBin: true
+    requiresBuild: true
+    dev: true

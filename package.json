@@ -1,0 +1,22 @@
+{
+  "name": "unicode-vo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/Vertical.gen.js",
+  "scripts": {
+    "lint": "deno lint test.ts && reanalyze -dce -exception",
+    "build": "rescript && tsc",
+    "clean": "rescript clean",
+    "pretest": "rescript",
+    "test": "deno test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@tsconfig/node16-strictest-esm": "^1.0.3",
+    "gentype": "^4.5.0",
+    "reanalyze": "^2.23.0",
+    "rescript": "^10.0.1"
+  }
+}

@@ -8,8 +8,7 @@ Query the Vertical Orientation (VO) of Unicode characters.
 
 APIs are undocumented yet.
 
-Currently, see `src/Vertical.bs.d.ts` for type definitions and
-`src/examples.res` for input/output examples.
+Currently, see [src/Vertical.bs.d.ts](src/Vertical.bs.d.ts) for type definitions.
 
 APIs are subject to change.
 

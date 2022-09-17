@@ -1,5 +1,7 @@
 # unicode-vo
 
+[![codecov](https://codecov.io/gh/weakish/unicode-vo/branch/master/graph/badge.svg?token=KUO7UMADQW)](https://codecov.io/gh/weakish/unicode-vo)
+
 Query the Vertical Orientation (VO) of Unicode characters.
 
 ## API

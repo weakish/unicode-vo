@@ -1,0 +1,24 @@
+name: test
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    name: Test against Deno latest canary
+    steps:
+    - uses: actions/checkout@v2
+    - name: Setup Deno
+      uses: denoland/setup-deno@v1
+      with:
+        deno-version: canary
+    - run: |
+        deno test --coverage=cov_profile
+        deno coverage cov_profile --lcov --output=cov_profile.lcov
+    - uses: codecov/codecov-action@v3
+      with:
+        files: cov_profile.lcov

@@ -8,7 +8,8 @@
     "build": "rescript && tsc",
     "clean": "rescript clean",
     "pretest": "rescript",
-    "test": "deno test"
+    "test": "deno test",
+    "fmt": "rescript format src/*.res && deno fmt"
   },
   "keywords": [],
   "author": "",

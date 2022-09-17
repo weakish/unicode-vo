@@ -2,7 +2,7 @@
   "extends": "@tsconfig/node16-strictest-esm/tsconfig.json",
   "compilerOptions": {
     "declaration": true,
-    "emitDeclarationOnly": true,
+    "emitDeclarationOnly": true
   },
-  "files": ["src/Vertical.bs.ts"],
+  "files": ["src/Vertical.bs.ts"]
 }

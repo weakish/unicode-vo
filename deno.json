@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "strict": true
+  },
+  "lint": {
+    "rules": {
+      "tags": ["recommended"],
+      "exclude": ["camelcase"]
+    }
+  },
+  "fmt": {
+    "files": {
+      "exclude": ["src/", "lib/"]
+    }
+  }
+}

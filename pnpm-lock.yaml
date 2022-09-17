@@ -3,12 +3,14 @@ lockfileVersion: 5.4
 specifiers:
   '@tsconfig/node16-strictest-esm': ^1.0.3
   gentype: ^4.5.0
+  husky: ^8.0.1
   reanalyze: ^2.23.0
   rescript: ^10.0.1
 
 devDependencies:
   '@tsconfig/node16-strictest-esm': 1.0.3
   gentype: 4.5.0
+  husky: 8.0.1
   reanalyze: 2.23.0
   rescript: 10.0.1
 
@@ -22,6 +24,12 @@ packages:
     resolution: {integrity: sha512-XqHBQPS6Qb2HSgNJAwYRXbQJ4LSvz+MgNvuWnj8bz0teSorsy2kDxA6F1eZx5ft8cnfKAls4uNEgd5uNcPbQDg==}
     hasBin: true
     requiresBuild: true
+    dev: true
+
+  /husky/8.0.1:
+    resolution: {integrity: sha512-xs7/chUH/CKdOCs7Zy0Aev9e/dKOMZf3K1Az1nar3tzlv0jfqnYtu235bstsWTmXOR0EfINrPa97yy4Lz6RiKw==}
+    engines: {node: '>=14'}
+    hasBin: true
     dev: true
 
   /reanalyze/2.23.0:

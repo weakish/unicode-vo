@@ -1,6 +1,6 @@
 {
   "name": "unicode-vo",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "description": "",
   "main": "src/Vertical.gen.js",
   "scripts": {
@@ -14,7 +14,7 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "0BSD",
   "devDependencies": {
     "@tsconfig/node16-strictest-esm": "^1.0.3",
     "gentype": "^4.5.0",

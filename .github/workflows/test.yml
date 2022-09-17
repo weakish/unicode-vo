@@ -11,7 +11,17 @@ jobs:
     runs-on: ubuntu-latest
     name: Test against Deno latest canary
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v3
+    - uses: pnpm/action-setup@v2.2.2
+      with:
+        version: 6.0.2
+    - name: Use Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: "16.x"
+    - run: |
+        pnpm install
+        pnpm build
     - name: Setup Deno
       uses: denoland/setup-deno@v1
       with:

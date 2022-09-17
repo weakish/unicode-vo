@@ -1,6 +1,6 @@
 import { assertEquals } from "https://deno.land/std/testing/asserts.ts";
 import { chars, custom_tag_samples, lines } from "./src/examples.bs.js";
-import { tateChuYoko, vo } from "./src/Vertical.gen.ts";
+import { tateChuYoko, vo } from "./src/Vertical.bs.js";
 
 Deno.test("vo", () => {
   for (const t of chars) {
